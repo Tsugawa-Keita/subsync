@@ -1,0 +1,36 @@
+{
+  "videoId": "8iAQ1h30n5I",
+  "language": "ja",
+  "segments": [
+    {
+      "index": 1,
+      "startSec": 0.48,
+      "endSec": 2.47,
+      "text": "皆さん、今日は"
+    },
+    {
+      "index": 2,
+      "startSec": 2.47,
+      "endSec": 2.48,
+      "text": "皆さん、今日は"
+    },
+    {
+      "index": 3,
+      "startSec": 2.48,
+      "endSec": 5.23,
+      "text": "皆さん、今日はフルスタックAIチャットアプリケーションを作成していきます"
+    },
+    {
+      "index": 4,
+      "startSec": 5.23,
+      "endSec": 5.24,
+      "text": "フルスタックAIチャットアプリケーションを作成していきます"
+    },
+    {
+      "index": 5,
+      "startSec": 5.24,
+      "endSec": 9.39,
+      "text": "フルスタックAIチャットアプリケーションを作成していきます。React.jsとMongoDBを使用して実装します"
+    }
+  ]
+}

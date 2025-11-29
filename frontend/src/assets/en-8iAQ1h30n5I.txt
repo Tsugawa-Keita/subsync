@@ -1,0 +1,498 @@
+1
+00:00:00,480 --> 00:00:02,470
+
+Hello friends today we are going to
+
+2
+00:00:02,470 --> 00:00:02,480
+Hello friends today we are going to
+ 
+
+3
+00:00:02,480 --> 00:00:05,230
+Hello friends today we are going to
+create a full stack AI chat application
+
+4
+00:00:05,230 --> 00:00:05,240
+create a full stack AI chat application
+ 
+
+5
+00:00:05,240 --> 00:00:09,390
+create a full stack AI chat application
+using react not. JS and mongod DB here
+
+6
+00:00:09,390 --> 00:00:09,400
+using react not. JS and mongod DB here
+ 
+
+7
+00:00:09,400 --> 00:00:12,589
+using react not. JS and mongod DB here
+is our homepage when I click here it
+
+8
+00:00:12,589 --> 00:00:12,599
+is our homepage when I click here it
+ 
+
+9
+00:00:12,599 --> 00:00:15,270
+is our homepage when I click here it
+will open the dashboard of course we
+
+10
+00:00:15,270 --> 00:00:15,280
+will open the dashboard of course we
+ 
+
+11
+00:00:15,280 --> 00:00:18,550
+will open the dashboard of course we
+have to be authenticated first and here
+
+12
+00:00:18,550 --> 00:00:18,560
+have to be authenticated first and here
+ 
+
+13
+00:00:18,560 --> 00:00:21,750
+have to be authenticated first and here
+we have all the previous chats I can
+
+14
+00:00:21,750 --> 00:00:21,760
+we have all the previous chats I can
+ 
+
+15
+00:00:21,760 --> 00:00:24,710
+we have all the previous chats I can
+create a new
+
+16
+00:00:24,710 --> 00:00:24,720
+create a new
+ 
+
+17
+00:00:24,720 --> 00:00:28,029
+create a new
+chat as soon as I do that it will open
+
+18
+00:00:28,029 --> 00:00:28,039
+chat as soon as I do that it will open
+ 
+
+19
+00:00:28,039 --> 00:00:31,550
+chat as soon as I do that it will open
+the chat page and generate the answer
+
+20
+00:00:31,550 --> 00:00:31,560
+the chat page and generate the answer
+ 
+
+21
+00:00:31,560 --> 00:00:34,630
+the chat page and generate the answer
+let's see one of our previous
+
+22
+00:00:34,630 --> 00:00:34,640
+let's see one of our previous
+ 
+
+23
+00:00:34,640 --> 00:00:38,069
+let's see one of our previous
+chats here is the chat history and the
+
+24
+00:00:38,069 --> 00:00:38,079
+chats here is the chat history and the
+ 
+
+25
+00:00:38,079 --> 00:00:40,590
+chats here is the chat history and the
+best thing is we'll send all this
+
+26
+00:00:40,590 --> 00:00:40,600
+best thing is we'll send all this
+ 
+
+27
+00:00:40,600 --> 00:00:43,470
+best thing is we'll send all this
+history to the AI so whenever we visit
+
+28
+00:00:43,470 --> 00:00:43,480
+history to the AI so whenever we visit
+ 
+
+29
+00:00:43,480 --> 00:00:46,270
+history to the AI so whenever we visit
+this page it's going to remember
+
+30
+00:00:46,270 --> 00:00:46,280
+this page it's going to remember
+ 
+
+31
+00:00:46,280 --> 00:00:49,830
+this page it's going to remember
+everything we can also send an
+
+32
+00:00:49,830 --> 00:00:49,840
+everything we can also send an
+ 
+
+33
+00:00:49,840 --> 00:00:53,389
+everything we can also send an
+image and the AI will describe all the
+
+34
+00:00:53,389 --> 00:00:53,399
+image and the AI will describe all the
+ 
+
+35
+00:00:53,399 --> 00:00:56,590
+image and the AI will describe all the
+details for this project we'll be using
+
+36
+00:00:56,590 --> 00:00:56,600
+details for this project we'll be using
+ 
+
+37
+00:00:56,600 --> 00:00:59,470
+details for this project we'll be using
+the latest version of react you'll learn
+
+38
+00:00:59,470 --> 00:00:59,480
+the latest version of react you'll learn
+ 
+
+39
+00:00:59,480 --> 00:01:00,830
+the latest version of react you'll learn
+to create create
+
+40
+00:01:00,830 --> 00:01:00,840
+to create create
+ 
+
+41
+00:01:00,840 --> 00:01:04,469
+to create create
+layouts protect routes build your
+
+42
+00:01:04,469 --> 00:01:04,479
+layouts protect routes build your
+ 
+
+43
+00:01:04,479 --> 00:01:08,749
+layouts protect routes build your
+backand API handle data patching and
+
+44
+00:01:08,749 --> 00:01:08,759
+backand API handle data patching and
+ 
+
+45
+00:01:08,759 --> 00:01:12,469
+backand API handle data patching and
+mutations Implement AI chat streaming
+
+46
+00:01:12,469 --> 00:01:12,479
+mutations Implement AI chat streaming
+ 
+
+47
+00:01:12,479 --> 00:01:15,950
+mutations Implement AI chat streaming
+and more and for this tutorial we'll be
+
+48
+00:01:15,950 --> 00:01:15,960
+and more and for this tutorial we'll be
+ 
+
+49
+00:01:15,960 --> 00:01:18,550
+and more and for this tutorial we'll be
+using Google Gemini so you won't have to
+
+50
+00:01:18,550 --> 00:01:18,560
+using Google Gemini so you won't have to
+ 
+
+51
+00:01:18,560 --> 00:01:21,830
+using Google Gemini so you won't have to
+pay anything for the AI and after
+
+52
+00:01:21,830 --> 00:01:21,840
+pay anything for the AI and after
+ 
+
+53
+00:01:21,840 --> 00:01:24,630
+pay anything for the AI and after
+creating our application we'll deploy it
+
+54
+00:01:24,630 --> 00:01:24,640
+creating our application we'll deploy it
+ 
+
+55
+00:01:24,640 --> 00:01:27,310
+creating our application we'll deploy it
+using hostinger as you know it's the
+
+56
+00:01:27,310 --> 00:01:27,320
+using hostinger as you know it's the
+ 
+
+57
+00:01:27,320 --> 00:01:29,550
+using hostinger as you know it's the
+hosting sponsor of the channel and I
+
+58
+00:01:29,550 --> 00:01:29,560
+hosting sponsor of the channel and I
+ 
+
+59
+00:01:29,560 --> 00:01:31,630
+hosting sponsor of the channel and I
+create different projects using
+
+60
+00:01:31,630 --> 00:01:31,640
+create different projects using
+ 
+
+61
+00:01:31,640 --> 00:01:34,429
+create different projects using
+hostinger every month and for this
+
+62
+00:01:34,429 --> 00:01:34,439
+hostinger every month and for this
+ 
+
+63
+00:01:34,439 --> 00:01:37,710
+hostinger every month and for this
+project I'll be using VPS hosting
+
+64
+00:01:37,710 --> 00:01:37,720
+project I'll be using VPS hosting
+ 
+
+65
+00:01:37,720 --> 00:01:40,270
+project I'll be using VPS hosting
+because it's a fullstack application and
+
+66
+00:01:40,270 --> 00:01:40,280
+because it's a fullstack application and
+ 
+
+67
+00:01:40,280 --> 00:01:43,389
+because it's a fullstack application and
+we need to deploy our backend server and
+
+68
+00:01:43,389 --> 00:01:43,399
+we need to deploy our backend server and
+ 
+
+69
+00:01:43,399 --> 00:01:45,749
+we need to deploy our backend server and
+the best thing is you can deploy all
+
+70
+00:01:45,749 --> 00:01:45,759
+the best thing is you can deploy all
+ 
+
+71
+00:01:45,759 --> 00:01:48,469
+the best thing is you can deploy all
+your fullstack applications on a single
+
+72
+00:01:48,469 --> 00:01:48,479
+your fullstack applications on a single
+ 
+
+73
+00:01:48,479 --> 00:01:51,990
+your fullstack applications on a single
+server and these servers are super fast
+
+74
+00:01:51,990 --> 00:01:52,000
+server and these servers are super fast
+ 
+
+75
+00:01:52,000 --> 00:01:55,230
+server and these servers are super fast
+because they use mvme ssds and one of
+
+76
+00:01:55,230 --> 00:01:55,240
+because they use mvme ssds and one of
+ 
+
+77
+00:01:55,240 --> 00:01:58,029
+because they use mvme ssds and one of
+the most powerful processors let's
+
+78
+00:01:58,029 --> 00:01:58,039
+the most powerful processors let's
+ 
+
+79
+00:01:58,039 --> 00:02:00,469
+the most powerful processors let's
+choose the most popular one
+
+80
+00:02:00,469 --> 00:02:00,479
+choose the most popular one
+ 
+
+81
+00:02:00,479 --> 00:02:02,389
+choose the most popular one
+and if you use the link in the
+
+82
+00:02:02,389 --> 00:02:02,399
+and if you use the link in the
+ 
+
+83
+00:02:02,399 --> 00:02:05,510
+and if you use the link in the
+description and the lamad coupon code
+
+84
+00:02:05,510 --> 00:02:05,520
+description and the lamad coupon code
+ 
+
+85
+00:02:05,520 --> 00:02:09,109
+description and the lamad coupon code
+here you'll get an extra discount after
+
+86
+00:02:09,109 --> 00:02:09,119
+here you'll get an extra discount after
+ 
+
+87
+00:02:09,119 --> 00:02:11,869
+here you'll get an extra discount after
+purchasing you are ready to set up your
+
+88
+00:02:11,869 --> 00:02:11,879
+purchasing you are ready to set up your
+ 
+
+89
+00:02:11,879 --> 00:02:15,589
+purchasing you are ready to set up your
+server you can choose any location you
+
+90
+00:02:15,589 --> 00:02:15,599
+server you can choose any location you
+ 
+
+91
+00:02:15,599 --> 00:02:18,830
+server you can choose any location you
+can install any of these server panels
+
+92
+00:02:18,830 --> 00:02:18,840
+can install any of these server panels
+ 
+
+93
+00:02:18,840 --> 00:02:21,869
+can install any of these server panels
+but as always I'll be using the cloud
+
+94
+00:02:21,869 --> 00:02:21,879
+but as always I'll be using the cloud
+ 
+
+95
+00:02:21,879 --> 00:02:25,030
+but as always I'll be using the cloud
+panel let's add the panel
+
+96
+00:02:25,030 --> 00:02:25,040
+panel let's add the panel
+ 
+
+97
+00:02:25,040 --> 00:02:28,390
+panel let's add the panel
+password and the server
+
+98
+00:02:28,390 --> 00:02:28,400
+password and the server
+ 
+
+99
+00:02:28,400 --> 00:02:31,589
+password and the server
+password and finish the setup it's going
+
+100
+00:02:31,589 --> 00:02:31,599
+password and finish the setup it's going
